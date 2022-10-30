@@ -25,17 +25,19 @@
 
     <main>
       <div class="hero-image"></div>
-      
+
       <div class="hero-text">
         <h1><span class="red">We're </span> coming soon</h1>
         <p class="info">Hello fellow shoppers! We're currently building our new fashion store.
           Add your email below to stay up-to-date with announcements and our launch deals.</p>
         <form action="">
           <input id="input" type="text" placeholder="Email Address">
+          <div class="error-icon" id="error-icon"></div>
           <div id="btn" class="btn">
             <div class="btn-icon"></div>
           </div>
         </form>
+        <div class="invalid" id="invalid">Please provide a valid email!</div>
       </div>
     </main>
 
@@ -44,5 +46,8 @@
  
   <footer>
   </footer>
+
+  <script src="main.js"></script>
+
 </body>
 </html>
